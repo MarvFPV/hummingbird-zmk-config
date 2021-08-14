@@ -101,6 +101,11 @@
             key-positions = <11 12>;
             bindings = <&kp RA(S) >;
         };
+        combo_lbkt {
+            timeout-ms = <27>;
+            key-positions = <11 21>;
+            bindings = <&kp LBKT >;
+        };
     };
 };
 
@@ -122,7 +127,7 @@
             bindings = <
     &kp N1           &kp N2        &kp N3        &kp N4        &kp N5           &kp N6           &kp N7           &kp N8           &kp N9           &kp N0   
 	&am LGUI EXCL    &am LALT AT   &am LCTRL HASH &am LSHFT DLLR &kp PERCENT    &kp GRAVE        &am RSHFT PLUS   &am RCTRL MINUS  &am RALT KP_ASTERISK &am RGUI SQT
-	                &am LSHFT LBKT &kp LPAR      &kp RPAR      &kp RBKT                          &kp SEMICOLON    &kp SQT          &am RSHFT EQUAL         
+	                &am LSHFT LPAR &kp RPAR       &kp RBKT                      &kp SEMICOLON    &kp SQT          &am RSHFT EQUAL         
                                                  &trans        &trans           &trans           &trans
             >;
         };
@@ -131,8 +136,8 @@
             label = "Nav";
             bindings = <
     &kp F1           &kp F2        &kp F3        &kp F4        &none            &none            &kp LC(LEFT)     &kp UP           &kp LC(RIGHT)    &kp screenshot   
-	&am LCTRL F5     &kp F6        &kp F7        &kp F8        &none            &none            &kp LEFT         &kp DOWN         &kp RIGHT        &none
-	                 &am LSHFT F9  &kp F10       &kp F11       &kp F12          &none            &kp C_PREV       &kp C_PP         &kp C_NEXT                
+	&am LCTRL F5     &kp F6        &kp F7        &kp F8        &none            &kp F12          &kp LEFT         &kp DOWN         &kp RIGHT        &none
+	                 &am LSHFT F9  &kp F10       &kp F11       &none            &none            &kp C_PREV       &kp C_PP         &kp C_NEXT                
                                                  &trans        &trans           &kp C_VOL_UP     &kp C_VOL_DN   
             >;
         };
