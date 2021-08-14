@@ -103,7 +103,7 @@
         };
         combo_lbkt {
             timeout-ms = <27>;
-            key-positions = <11 21>;
+            key-positions = <10 20>;
             bindings = <&kp LBKT >;
         };
     };
