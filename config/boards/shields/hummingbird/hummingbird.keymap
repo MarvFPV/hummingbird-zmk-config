@@ -13,9 +13,6 @@
 
 #define screenshot LS(LG(S))
 
-// Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
-&lt { quick_tap_ms = <200>; };
-
 / {
     behaviors {
         am: alpha_mods {
