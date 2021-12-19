@@ -13,6 +13,10 @@
 
 #define screenshot LS(LG(S))
 
+&kscan0 {
+         debounce-period = <15>;
+         };
+
 / {
     behaviors {
         am: alpha_mods {
