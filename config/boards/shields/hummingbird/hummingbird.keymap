@@ -14,7 +14,7 @@
 #define screenshot LS(LG(S))
 
 &kscan0 {
-         debounce-period = <15>;
+         debounce-period = <25>;
          };
 
 / {
@@ -38,13 +38,13 @@
         };
         combo_b {
             timeout-ms = <35>;
-            key-positions = <4 14>;
+            key-positions = <13 14>;
             bindings = <&kp B>;
         };
 
         combo_n {
             timeout-ms = <35>;
-            key-positions = <5 15>;
+            key-positions = <5 16>;
             bindings = <&kp N>;
         };
         combo_sqt {
