@@ -38,13 +38,13 @@
         };
         combo_b {
             timeout-ms = <35>;
-            key-positions = <13 14>;
+            key-positions = <12 13>;
             bindings = <&kp B>;
         };
 
         combo_n {
             timeout-ms = <35>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
             bindings = <&kp N>;
         };
         combo_sqt {
