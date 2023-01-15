@@ -44,7 +44,7 @@
 
         combo_n {
             timeout-ms = <35>;
-            key-positions = <5 16>;
+            key-positions = <15 16>;
             bindings = <&kp N>;
         };
         combo_sqt {
